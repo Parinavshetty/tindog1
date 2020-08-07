@@ -1,0 +1,208 @@
+#title {
+  background-color: #ff4c68 ;
+  color: white;
+  z-index: 1;
+
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  padding-top: 30%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+padding: 2% 15%;
+}
+p{
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#iphone{
+  transform: rotate(25deg);
+  margin-top: 30%;
+  width: 60%;
+  position: absolute;
+  z-index: 1;
+  right: 30%;
+}
+
+#apple{
+  margin-top: 10%;
+  margin-left: 0%;
+}
+
+#google{
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.navbar{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0rem;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Features */
+.fa-heart{
+  width: 100%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 4.5rem;
+  color: #ef8172;
+}
+.fa-heart:hover{
+color: #ff4c68;
+}
+.fa-bullseye{
+width: 100%;
+margin-bottom: 5%;
+  text-align: center;
+  font-size: 4.5rem;
+  color: #ef8172;
+}
+.fa-bullseye:hover{
+color: #ff4c68;
+}
+.fa-check-circle{
+  width: 100%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 4.5rem;
+  color: #ef8172;
+}
+.fa-check-circle:hover{
+color: #ff4c68;
+}
+.features{
+  padding: 10% 15%;
+}
+p{
+  color: #8f8f8f;
+}
+#features{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+h3{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/*Testimonials section*/
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.testimonial_image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+margin: 10px 20px 50px;
+padding-top: 5%;
+}
+
+.carasousel-item {
+    padding: 10% 15%;
+}
+/* PRicing Section */
+
+#pricing {
+  padding: 100px;
+}
+.pricing-coloumn {
+  padding: 3% 2%;
+  text-align: center;
+}
+.card-header {
+  background-color: #ff4c68;
+color: white;
+}
+.pricing-text {
+  color:  black;
+  font-weight: 500;
+}
+.fa-star {
+  font-size: 2rem;
+}
+
+/* Media queries */
+
+@media (max-width : 1028px)  {
+  #iphone {
+    position: static;
+    transform: rotate(0);
+  }
+  #title
+{
+  text-align: center;
+}
+}
+
+/* Call to Action */
+
+#challenge{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+#applebottom{
+  margin: 1%;
+}
+#googlebottom{
+  margin: 1%;
+}
+.ctahead{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-kerning: 0.6%;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 3% 0%;
+}
+#footer{
+  text-align: center;
+
+}
+#icons-footer{
+  padding: 5% 1% 2%;
+}
